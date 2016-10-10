@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
+    UIScrollView* scrolleV = [[UIScrollView alloc]init];
+    [self.view addSubview:scrolleV];
 }
 
 - (void)didReceiveMemoryWarning {
